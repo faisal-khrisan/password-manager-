@@ -6,6 +6,7 @@ from random import choice, randint, shuffle
 import pyperclip
 # ---------------------------- SEARCH FOR DATA------------------------------- #
 def search():
+    """ to find the your password by using the website namae you entered"""
     # using website name for searching
 
     search_by_website = website_entry.get()
